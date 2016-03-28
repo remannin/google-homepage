@@ -1,6 +1,7 @@
 body {
 	font-family: sans-serif;
 	margin: 0px;
+	font-size: 14px;
 }
 
 a {
@@ -20,7 +21,6 @@ section {
 header {
 	float: right;
 	margin-right: 20px;
-	font-size: 14px;
 	color: #808080;
 }
 
@@ -46,15 +46,17 @@ footer {
 
 footer ul#bot-left li {
 	display: inline-block;
-	padding: 0px 8px 0px 0px;
-	text-align: left;
 	float: left;
+	margin-top: -8px;
+	margin-right: 10px;
 }
 
 footer ul#bot-right li {
 	display: inline-block;
-	padding: 0px 8px 0px 0px;
+	padding-right: 20px;
 	float: right;
+	margin-top: -8px;
+	margin-right: 10px;
 }
 
 section {
@@ -74,6 +76,18 @@ section {
 #search:hover {
 	border:1px solid #C0C0C0;
 }
+
+#signin {
+	background-color: #4285F4;
+	width: 70px;
+	height: 30px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
 
 p input {
 	border:1px solid #FFFFFF;
